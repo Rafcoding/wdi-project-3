@@ -7,7 +7,7 @@ Orca is a web app that allows users upload their clothing and sell it... and con
 
 This was my third project of the GA Web development course and was also the first time I have worked on a coding project as a group. The timeframe for this project was also one week and the main briefing was to use Angular for the front-end.
 
-Go to [Website](https://project3-orca.herokuapp.com/) and [GitHub](https://github.com/Rafcoding/wdi-project-two).
+Go to [Website](https://project3-orca.herokuapp.com/) and [GitHub](https://github.com/Rafcoding/wdi-project-3).
 
 ## Timeframe
 
@@ -58,13 +58,13 @@ Go to [Website](https://project3-orca.herokuapp.com/) and [GitHub](https://githu
 
 The aim of Orca is to create a community where users can post and sell their clothes, post comments and rate their picks.
 
-A percentage from each transaction is destinate to save the Orca.
+A percentage from each transaction is destined to save the Orca.
 
 # Styling and Idea
 
 The idea of creating Orca comes from our love for fashion as well as our care for Orcas.
 
-For the Styling, We picked blue and black as a main colours for the blog site, we decide to have a rounded pattern consistent across the whole project.
+For the Styling, We picked blue and black as a main colours for the blog site, we decide to have a rounded pattern consistent across the whole project as bubbles, all related to the Sea and Orcas.
 
 
 # Screenshots
@@ -103,6 +103,8 @@ It was a great experience overall.
 
 # Future Content
 
-*
+There are a number of potential future features I could implement, such as:
+
+* Adding a map where people can pin their locations.
 *
 *

@@ -56,14 +56,15 @@ Go to [Website](https://project3-orca.herokuapp.com/) and [GitHub](https://githu
 
 # Aim of the Blog
 
-The aim of Orca is to create a community where Sneakers lovers can post their latest picks and review them.
+The aim of Orca is to create a community where users can post and sell their clothes, post comments and rate their picks.
 
+A percentage from each transaction is destinate to save the Orca.
 
 # Styling and Idea
 
-the idea of creating Orca comes from my passion for fashion and mainly for Sneakers.
+The idea of creating Orca comes from our love for fashion as well as our care for Orcas.
 
-For the Styling, I picked orange and black as a main colours for the blog site, I have used CSS3 and JavaScript for the display and functionality of the content.
+For the Styling, We picked blue and black as a main colours for the blog site, we decide to have a rounded pattern consistent across the whole project.
 
 
 # Screenshots

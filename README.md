@@ -1,11 +1,10 @@
-# WDI Project 3 - Orca
-
+# **WDI Project 3 - Orca** ![General Assembly](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
 
 # Overview
 
-Orca is a web app that allows users upload their clothing and sell it... and contributes to save the Orca.
+Orca is a web app that allows users upload their clothing to sell it.
 
-This was my third project of the GA Web development course and was also the first time I have worked on a coding project as a group. The timeframe for this project was also one week and the main briefing was to use Angular for the front-end.
+Orca was my third project of the GA Web development course and was also the first time I have worked on a coding project as a group. The timeframe for this project was also one week and the main briefing was to use Angular for the front-end.
 
 Go to [Website](https://project3-orca.herokuapp.com/) and [GitHub](https://github.com/Rafcoding/wdi-project-3).
 
@@ -54,7 +53,7 @@ Go to [Website](https://project3-orca.herokuapp.com/) and [GitHub](https://githu
 * Chai
 * Mocha
 
-# Aim of the Blog
+# Aim of the Blog Site
 
 The aim of Orca is to create a community where users can post and sell their clothes, post comments and rate their picks.
 
@@ -69,25 +68,32 @@ For the Styling, We picked blue and black as a main colours for the blog site, w
 
 # Screenshots
 
+
+### Intro
 ![Intro page](src/screenshots/intro.png)
 
+### Index
 ![Index page](src/screenshots/index.png)
 
+### Show
 ![Show page](src/screenshots/show.png)
 
+### Contact
 ![Contact page](src/screenshots/contact.png)
 
+### About
 ![About page](src/screenshots/about.png)
 ![About page](src/screenshots/about2.png)
 ![About page](src/screenshots/about3.png)
 
+### Profile
 ![Profile page](src/screenshots/profile.png)
 
 
 
 # Approach
 
-After a brainstorm we decided that we would like to make an app which would be community focussed. After creating some initial wireframes we mapped out our project using Trello.
+After a brainstorm in group we decided that we would like to make an app which would be community focussed. After creating some initial wireframes we mapped out our project using Trello.
 
 ![Trello page](src/screenshots/trelloOrca.png)
 
@@ -105,6 +111,6 @@ It was a great experience overall.
 
 There are a number of potential future features I could implement, such as:
 
-* Adding a map where people can pin their locations.
-*
-*
+* A map where people can pin their locations.
+* A section where users can bid on clothes.
+* Prive messages services between the users.

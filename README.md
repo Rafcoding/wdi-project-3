@@ -113,4 +113,4 @@ There are a number of potential future features I could implement, such as:
 
 * A map where people can pin their locations.
 * A section where users can bid on clothes.
-* Prive messages services between the users.
+* Private messages services between the users.

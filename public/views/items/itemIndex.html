@@ -1,0 +1,19 @@
+<div id="itemindex">
+<section class="section">
+    <div class="field has-addons is-grouped">
+      <div class="control is-expanded">
+        <input id="input" placeholder="Search by anything you like..." type="text" class="input is-rounded" ng-model="$parent.searchBar">
+      </div>
+    </div>
+  <div class="columns is-multiline">
+    <div ng-repeat="item in items | filter: searchBar" class="column is-2">
+      <a ui-sref="itemsShow({ id: item._id })">
+        <h3 id="pricetag" class="subtitle is-4">£{{ item.price}}</h3>
+        <figure class="image">
+          <img ng-src="{{ item.imageUrl }}" alt="{{ item.itemName }}">
+        </figure>
+      </a>
+    </div>
+  </div>
+</section>
+</div>

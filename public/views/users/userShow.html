@@ -1,0 +1,22 @@
+<div id="usershow">
+  <section class="section2">
+    <h1 class="title-is-1" id="username">{{ user.username }}'s Profile</h1>
+    <h3 id="jk">Your items for sale:</h3>
+    <div id="space" class="columns is-multiline">
+      <div ng-repeat="item in user.itemsForSale" class="column is-2">
+        <a ui-sref="itemsEdit({ id: item._id })">
+          <h2 id="useritemname">
+            {{ item.itemName }}
+          </h2>
+          <figure class="image">
+            <img ng-src="{{ item.imageUrl}}" alt="{{ item.itemName }}">
+          </figure>
+          <div class="editdelete">
+            <button  id="buble2" class="button is-link" ng-if="user.id === userId"  ui-sref="itemsEdit({ id: item._id })">Edit</button>
+            <button id="delete" class="button is-link" ng-if="user.id === userId"  ng-click="handleDelete(item._id)">Delete</button>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,24 @@
+<div id="login">
+  <form id="register" ng-submit="handleLogin()">
+    <div class="field">
+      <label class="label">Email</label>
+      <div class="control has-icons-left has-icons-right">
+        <input id="borders" ng-model="user.email" class="input is-link" type="email">
+        <span id="icon" class="icon is-small is-left">
+          <i class="fas fa-envelope"></i>
+        </span>
+        <div class="field">
+          <label class="label">Password</label>
+          <div class="control has-icons-left has-icons-right">
+            <input id="borders" ng-model="user.password"  class="input is-link" type="text">
+            <span id="icon" class="icon is-small is-left">
+              <i class="fas fa-lock"></i>
+            </span>
+            <div id="buttones" class="field is-grouped">
+              <div class="control">
+                <button id="buble" class="button is-link">Login</button>
+              </div>
+
+            </div>
+          </form>
+        </div>

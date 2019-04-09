@@ -1,0 +1,48 @@
+
+<div id="show">
+<section id="section">
+  <div class="columns is-vcentered is-mobile is-multiline">
+<div class="column is-8-desktop">
+  <!-- <div id="left" class="column is-7"> -->
+    <h1 class="title" id="showtitle">{{ item.itemName }}</h1>
+    <img id="imgshow" src="{{ item.imageUrl }}">
+  </div>
+   <div id="details" class="column is-2-desktop">
+    <!-- <span> A B O U T </span><span class="hide">ll</span><span>T H E</span><span class="hide">ll</span> <span>P I E C E</span> -->
+    <p id="idi"><span>Sold by : </span><a id="a" ui-sref="userShow({ id: item.createdBy._id})">{{ item.seller }}</a></p>
+    <p id="idi"><span>Price : </span>£{{ item.price }}</p>
+    <!-- <p><span>Rating: {</span>{ item.rating }}</p> -->
+    <!-- <p><span>Upload Date: </span>{{ item.updloadDate }}</p> -->
+    <p id="idi"><span>Location : </span>{{ item.location }}</p>
+    <p id="idi"><span>Size : </span>{{ item.sizes }}</p>
+    <p id="idi"><span>Colour : </span>{{ item.colour }}</p>
+    <p id="idi"><span>Likes : </span>{{ item.likeCount }}</p>
+    <div ng-if="isAuthenticated()">
+      <button ng-if="!liked()" ng-click="createLikes()">👍</button>
+      <button ng-if="liked()" ng-click="createUnlikes()">👎</button>
+    </div>
+
+
+
+<br>
+<div id="commentsshow" >
+  <p id="commentstitle">C O M M E N T S</p>
+<div class="comments">
+
+  <form ng-submit="createComment()">
+    <input id="comment" type="text" ng-model="comment.text">
+    <button id="commentbutton" class="button">💬</button>
+    <div ng-repeat="comment in item.comments">
+      <span id="a">{{ comment.user.username }}:</span>
+      <span id="idi">{{ comment.text }}</span>
+      <!-- need auth so only the user can delete thier comment -->
+      <!-- ng-if="comment.user._id === userId" -->
+      <button class="delete-button" ng-click="deleteComment(comment)">🗑</button>
+    </div>
+  </div>
+  </form>
+</div>
+</div>
+</div>
+</section>
+</div>

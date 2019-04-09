@@ -6,7 +6,7 @@ Orca is a web app that allows users upload their clothing to sell it.
 
 Orca was my third project of the GA Web development course and was also the first time I have worked on a coding project as a group. The timeframe for this project was also one week and the main briefing was to use Angular for the front-end.
 
-Go to [Website](https://project3-orca.herokuapp.com/) and [GitHub](https://github.com/Rafcoding/wdi-project-3).
+Go to [Website](https://orca-three.herokuapp.com/#!/) and [GitHub](https://github.com/Rafcoding/wdi-project-3).
 
 ## Timeframe
 
